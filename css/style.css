@@ -88,7 +88,7 @@
     
     .header__search::before {
         content: "";
-        background: url(../BEAUTY/images/header__search-img.svg) center no-repeat;
+        background: url(../images/header__search-img.svg) center no-repeat;
         top: 11px;
         left: 20px;
         position: absolute;
@@ -137,7 +137,7 @@
     }
     
     .banner {
-        background: url(../BEAUTY/images/special-offer__bg.jpg) 20% 50% no-repeat;
+        background: url(../images/special-offer__bg.jpg) 20% 50% no-repeat;
         width: 100%;
         padding: 195px;
         color: #FFFFFF;
