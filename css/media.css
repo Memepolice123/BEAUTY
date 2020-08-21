@@ -1,0 +1,309 @@
+@media (max-width: 1920px) {
+    .banner {
+        background: url(/images/special-offer__bg.jpg) no-repeat;
+        max-width: 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 940px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .footer__inner hr {
+        width: 220px;
+    }
+    .header__top {
+        color: #333333;
+        background-color: #E5E5E5;
+        padding: 15px;
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .top__items-list {
+        display: flex;
+        justify-content: space-between;
+        max-width: 620px;
+        margin: 0 auto;
+    }
+    .header-main__inner {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .sections__list {
+        max-width: 800px;
+        font-size: 22px;
+    }
+    .banner {
+        display: none;
+        background: none;
+    }
+    .special-offer__item {
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .item__price {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .item__btn {
+        font-size: 20px;
+    }
+    .bonus__inner {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .bonus__gifts {
+        margin-bottom: 35px;
+        width: 680px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .bonus__shops {
+        width: 680px;
+    }
+    .gifts__input input {
+        padding: 8px 20px 10px 25px;
+        font-size: 22px;
+        line-height: 16px;
+    }
+    .shops__btn {
+        max-width: 300px;
+        font-size: 20px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        padding: 12px 28px;
+    }
+    .categories__title {
+        font-size: 22px;
+    }
+    .categories__item {
+        font-size: 18px;
+    }
+    .footer__bottom {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .rights-text {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 880px) {
+    .header-main__inner {
+        flex-direction: column;
+    }
+    .header__logo {
+        margin-bottom: 20px;
+    }
+    .header__search {
+        margin-bottom: 20px;
+    }
+    .header__tel {
+        margin-bottom: 20px;
+    }
+    .header__btn {
+        margin-bottom: 20px;
+    }
+    .special-offer__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .special-offer__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .special-offer__item {
+        width: 520px;
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+    .item__price {
+        font-size: 28px;
+    }
+    .item__btn {
+        padding: 18px 70px;
+        background: #F13C6E;
+        border-radius: 30px;
+        border: 2px solid #FFFFFF;
+        color: #FFFFFF;
+    }
+    .watchs__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .watchs__item-list {
+        align-items: center;
+        flex-direction: column;
+    }
+    .watchs__item {
+        width: 520px;
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+    .footer__inner {
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+    .footer_categories {
+        margin-bottom: 20px;
+    }
+    .categories__item {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .footer-middle__inner {
+        flex-direction: column;
+    }
+    .footer-middle__tel {
+        margin-bottom: 20px;
+    }
+    .footer-middle__address {
+        font-size: 20px;
+    }
+    .footer-middle__tel {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 780px) {
+    .sections__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sections__list-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    .bonus__gifts {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+    .bonus__gifts::before {
+        content: "";
+        background: url(../images/bonus__gifts-bg.svg) center no-repeat;
+        top: 260px;
+        right: 125px;
+        position: absolute;
+        width: 140px;
+        height: 106px;
+        z-index: 1;
+    }
+    .bonus__shops {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+    .bonus__shops::before {
+        content: "";
+        background: url(../images/bonus__shops-bg.svg) center no-repeat;
+        top: 260px;
+        right: 100px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media (max-width:550px) {
+    .header__top {
+        display: none;
+    }
+    .header-search input {
+        width: 280px;
+        height: 40px;
+        background: #EFEFEF;
+        border-radius: 40px;
+        border: none;
+        padding: 0 5px 0 45px;
+    }
+    .banner {
+        display: none;
+    }
+    .special-offer__item {
+        width: 320px;
+    }
+    .bonus__gifts {
+        width: 320px;
+    }
+    .gifts__input input {
+        padding: 10px 0px 10px 10px;
+    }
+    .bonus__gifts::before {
+        top: 265px;
+        right: 87px;
+    }
+    .bonus__shops {
+        width: 320px;
+    }
+    .bonus__shops::before {
+        top: 265px;
+        right: 55px;
+    }
+    .watchs__item {
+        width: 320px;
+        text-align: center;
+    }
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-middle__address {
+        font-size: 22px;
+    }
+    .footer-middle__tel {
+        font-size: 22px;
+    }
+    .footer-bottom__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rights-text {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .header__tel {
+        font-size: 22px;
+    }
+    .special-offer__item {
+        width: 300px;
+    }
+    .bonus__gifts {
+        width: 300px;
+    }
+    .bonus__shops {
+        width: 300px;
+    }
+    .watchs__item {
+        width: 300px;
+    }
+    .footer-middle__address {
+        font-size: 20px;
+    }
+    .bonus__gifts::before {
+        top: 280px;
+        right: 75px;
+    }
+    .gifts__input input {
+        padding: 10px 0px 10px 0px;
+    }
+}
