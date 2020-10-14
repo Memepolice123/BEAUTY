@@ -1,6 +1,6 @@
 @media (max-width: 1920px) {
     .banner {
-        background: url(/images/special-offer__bg.jpg) no-repeat;
+        background: url(../images/special-offer__bg.jpg) no-repeat;
         max-width: 100%;
         background-size: cover;
     }
