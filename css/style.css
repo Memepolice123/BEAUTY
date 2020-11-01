@@ -137,7 +137,7 @@
     }
     
     .banner {
-        background: url(../images/special-offer__bg.jpg) 20% 50% no-repeat;
+        background: url(../images/special-offer__bg.jpg) center no-repeat;
         width: 100%;
         padding: 195px;
         color: #FFFFFF;
