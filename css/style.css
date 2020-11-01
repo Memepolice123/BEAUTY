@@ -107,6 +107,7 @@
     }
     
     .header__btn {
+        display:inline-block;
         border: 2px solid #F13C6E;
         border-radius: 40px;
         padding: 12px 25px;
@@ -159,11 +160,9 @@
     }
     
     .banner__btn {
+        display:inline-block;
         cursor: pointer;
         transition: all 0.5s;
-    }
-    
-    .banner__btn a {
         border-radius: 40px;
         border: 2px solid #FFFFFF;
         padding: 12px 30px;
@@ -219,6 +218,7 @@
     }
     
     .item__btn {
+        display:inline-block;
         padding: 10px 40px;
         background: #F13C6E;
         border-radius: 30px;
@@ -308,6 +308,7 @@
     }
     
     .shops__btn {
+        display:inline-block;
         max-width: 180px;
         font-size: 14px;
         line-height: 16px;
@@ -415,6 +416,7 @@
     }
     
     .footer-middle__btn {
+        display:inline-block;
         padding: 12px 30px;
         border: 2px solid #F13C6E;
         border-radius: 40px;
