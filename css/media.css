@@ -237,6 +237,7 @@
         width: 320px;
     }
     .gifts__input input {
+        width:100%;
         padding: 10px 0px 10px 10px;
     }
     .bonus__gifts::before {
